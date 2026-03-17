@@ -13,3 +13,10 @@ skills/pka-predictor/Uni-pKa/uni-pka-ckpt_v2/
 *.pt
 *.pth
 *.ckpt
+
+# local external dependency for molecular-properties-predictor
+skills/bamboo_mixer/.venv/
+skills/bamboo_mixer/**/__pycache__/
+skills/bamboo_mixer/**/*.pyc
+skills/bamboo_mixer/hf_bamboo_mixer/
+skills/bamboo_mixer/data_oss/
